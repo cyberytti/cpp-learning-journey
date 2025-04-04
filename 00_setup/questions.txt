@@ -1,0 +1,39 @@
+### Basic C++ Structure Questions  
+1. Why is `#include <iostream>` necessary in C++ programs that use `cout`?  
+2. What does the `#include <iostream>` directive do?  
+3. What is the purpose of `using namespace std;` in C++?  
+4. What happens if you omit `using namespace std;`? How would you then use `cout`?  
+5. Can you write a C++ program without `using namespace std;`? Show an example.  
+
+### `cout` and Output Questions  
+6. What is the purpose of the `cout` object in C++?  
+7. Which operator is used with `cout` to output values?  
+8. How do you print text using `cout`? (What symbols surround the text?)  
+9. What happens when you use multiple `cout` statements without newlines?  
+10. How do you print numbers using `cout`? (Do they need quotes?)  
+11. Can you perform mathematical calculations inside `cout`? Give an example.  
+12. What are two ways to insert a new line in C++ output?  
+13. What is the difference between `\n` and `endl`?  
+14. How would you create a blank line between two outputs?  
+15. What is an escape sequence in C++?  
+16. Name four common escape sequences and their purposes.  
+17. Which character creates a horizontal tab in the output?  
+18. How would you print a backslash (`\`) character in C++?  
+19. How would you print double quotes (`"`) in a string?  
+20. Which method of creating new lines is more commonly used: `\n` or `endl`?  
+21. What does the `\n` character actually represent?  
+
+### Practical Coding Questions  
+22. Write a C++ program that prints "Hello" and "World" on separate lines.  
+23. Write a C++ program that prints "Name:" followed by a tab and then your name.  
+24. What will this code output? `cout << "C++\n\n" << "Programming";`  
+25. Why don't numbers need to be in quotes when printing with `cout`?  
+26. Write a C++ program that calculates and prints the sum of 5 and 7.  
+27. Write a C++ program that prints your name in quotes (e.g., `"Alice"`).  
+28. What is wrong with this code?  
+   ```cpp  
+   #include <iostream>  
+   int main() {  
+       cout << "Hello World!";  
+       return 0;  
+   }  
